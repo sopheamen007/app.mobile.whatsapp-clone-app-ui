@@ -268,6 +268,7 @@ class CustomBubbleChat extends StatelessWidget {
                     padding: const EdgeInsets.only(
                         left: 8, right: 8, top: 5, bottom: 5),
                     child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
                           message,
@@ -300,7 +301,7 @@ class CustomBubbleChat extends StatelessWidget {
                     nip: BubbleNip.rightBottom,
                     color: chatBoxOther,
                     child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.end,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
                           message,
